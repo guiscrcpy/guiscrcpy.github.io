@@ -142,7 +142,8 @@ header.masthead .bg-circle-4 {
 .imgs {
     position: absolute;
     width: 10%;
-
+    left: auto;
+    right: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
