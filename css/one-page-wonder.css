@@ -139,12 +139,32 @@ header.masthead .bg-circle-4 {
   }
 }
 
+.imgs {
+    position: absolute;
+    width: 10%;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
 
 .vertical-center {
   position: relative;
   top: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+}
+.fullscreen {
+  position: relative;
+  left: auto;
+  right: auto;
+  z-index: 1;
+  position: relative;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
 }
 
 .bg-primary {
@@ -178,3 +198,45 @@ header.masthead .bg-circle-4 {
 .btn-secondary:focus {
   box-shadow: 0 0 0 0.2rem rgba(255, 106, 0, 0.5);
 }
+
+.card {
+  background: #00458f;
+  border-color: #00458f;
+  border-radius: 10px;
+  margin: 0 15px;
+  padding: 15px 0;
+  text-align: center;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+  height: 100%;
+}
+
+.card:hover {
+  background: #003b7a;
+  border-color: #003b7a;
+}
+
+
+
+.card h5 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.card p {
+  font-size: 15px;
+  color: #d8eafe;
+}
+
+.card .readmore {
+  color: #fff;
+  font-weight: 600;
+  display: inline-block;
+  transition: 0.3s ease-in-out;
+  border-bottom: #00458f solid 2px;
+}
+
+.card .readmore:hover {
+  border-bottom: #fff solid 2px;
+}
+
